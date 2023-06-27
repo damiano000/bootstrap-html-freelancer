@@ -13,37 +13,37 @@
 
 <body>
 
-    <body>
-        <!-- header della pagina -->
-        <header>
-            <div class="container-fluid bg-dark h_8vh  ">
-                <div class="row d-flex align-items-center justify-content-evenly h-100">
-                    <div class="col-5  text-info text-center fs-5">Portfolio</div>
-                    <div class="col-5  text-info text-center ">
-                        <a href="#" class="text-info">CONTACT ME</a>
+    <!-- header della pagina -->
+    <header>
+        <div class="container-fluid bg-dark h_8vh  ">
+            <div class="row d-flex align-items-center justify-content-evenly h-100">
+                <div class="col-5  text-info text-center fs-5">Portfolio</div>
+                <div class="col-5  text-info text-center ">
+                    <a href="#" class="text-info">CONTACT ME</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main content -->
+    <main>
+        <!-- profile image section -->
+        <section>
+            <div class="container-fluid bg-info  py-5">
+                <div class="row">
+                    <div class="col-12"><img src="./img/undraw_profile_pic_ic5t.svg" class="w-25 mx-auto d-block"
+                            alt="Profile Image">
+                    </div>
+                    <div class="col-4 mx-auto text-center">
+                        <h2>Damiano Mirante</h2>
+                        <p>Web designer</p>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- main content -->
-        <main>
-            <!-- profile image section -->
-            <section>
-                <div class="container-fluid bg-info  py-5">
-                    <div class="row">
-                        <div class="col-12"><img src="./img/undraw_profile_pic_ic5t.svg" class="w-25 mx-auto d-block"
-                                alt="Profile Image">
-                        </div>
-                        <div class="col-4 mx-auto text-center">
-                            <h2>Damiano Mirante</h2>
-                            <p>Web designer</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        
-        <section>
+        </section>
+    </main>
+
+    <section class="container text-left">
+        <div class="row">
             <h2 class="text-center">Portfolio</h2>
 
             <!-- 1st card -->
@@ -58,6 +58,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- 2st card -->
                 <div class="col">
                     <div class="card h-100">
@@ -116,25 +117,101 @@
                     </div>
                 </div>
             </div>
+    </section>
+
+
+
+
+    <!-- footer della pagina -->
+    <footer class="bg-info text-white py-3">
+        <h2 class="text-center text-black">WANT AN OFFER?</h2>
+        <section>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-6 col-sm-6"> <label for="exampleFormControlInput1" class="form-label">First
+                            name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter your first name...">
+                    </div>
+
+                    <div class="col">
+                        <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter your last name...">
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-6 col-sm-6"> <label for="exampleFormControlInput1" class="form-label">Email
+                            address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+                    <div class="col">
+                        <label for="exampleFormControlInput1" class="form-label">Hours requested</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Hours requested...">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <label for="disabledSelect" class="form-label">Type of work</label>
+                        <select id="disabledSelect" class="form-select">
+                            <option>Select the type of work</option>
+                        </select>
+                    </div>
+
+                    <div class="col">
+                        <label for="exampleFormControlInput1" class="form-label">Discount code</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col"><label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Hours requested..."
+                            rows="3"></textarea>
+
+                    </div>
+                </div>
+                <div class="row text-center mt-3">
+                    <div class="col">
+                        <button type="button"
+                            class="btn btn-warning text-center btn-sm d-grid gap-2 col-1 mx-auto">Send</button>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
+   
+    </footer>
+
+    <footer class="bg-dark text-center text-white-50 pt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3>LOCATION</h3>
+                    <p>2215 John Daniel Drive</p>
+                    <p>Clark,MO 652443</p>
+                    <p>Copyright your Website 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
 
-
-
-
-
-
-
-        <!-- footer della pagina -->
-        <footer>
-
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
 
